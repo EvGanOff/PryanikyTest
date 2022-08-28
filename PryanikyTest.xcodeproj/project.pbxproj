@@ -73,6 +73,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5E1E631128BBA5E900A5B1E4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5EC941FD28B7CAC600A02A65 /* AppDelegate.swift */,
+				5EC941FF28B7CAC600A02A65 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		5EC941F128B7CAC600A02A65 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +103,7 @@
 		5EC941FC28B7CAC600A02A65 /* PryanikyTest */ = {
 			isa = PBXGroup;
 			children = (
-				5EC941FD28B7CAC600A02A65 /* AppDelegate.swift */,
-				5EC941FF28B7CAC600A02A65 /* SceneDelegate.swift */,
+				5E1E631128BBA5E900A5B1E4 /* App */,
 				5EC9422928B7EF0600A02A65 /* NetworkManager */,
 				5EC9422728B7ED4600A02A65 /* Coordinator */,
 				5EC9422828B7ED5800A02A65 /* Assembly */,

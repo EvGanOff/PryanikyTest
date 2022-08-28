@@ -51,7 +51,7 @@ class MainCoordinator: Coordinatable {
     }
 }
 
-// MARK: - DetailCoordinating -
+    // MARK: - DetailCoordinating -
 
 extension MainCoordinator: DetailCoordinating {
     func popTo(_ destination: Destination) {
@@ -67,7 +67,7 @@ extension MainCoordinator: DetailCoordinating {
     }
 }
 
-// MARK: - MainCoordinating -
+    // MARK: - MainCoordinating -
 
 extension MainCoordinator: MainCoordinating {
     func pushTo(_ destination: Destination) {
